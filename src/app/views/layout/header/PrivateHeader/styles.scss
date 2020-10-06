@@ -1,0 +1,109 @@
+.header-wrapper {
+  svg {
+    vertical-align: middle;
+  }
+
+  .sidemenu-trigger {
+    padding-right: 1rem;
+  }
+}
+
+.secondary-header {
+  height: min-content !important;
+  nav,
+  .header-wrapper {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    p {
+      margin: 0;
+      font-weight: bold;
+      color: #5d5d5d;
+    }
+  }
+}
+
+// #maze_menu_drop_down {
+//   position: absolute;
+//   z-index: 1000;
+//   right: 0;
+//   display: block;
+//   width: 140px;
+//   transform: scaleX(1) scaleY(1);
+//   list-style-type: none;
+//   background-color: #fff;
+//   margin: 0;
+//   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+//     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+//   li {
+//     list-style-type: none;
+//     clear: both;
+//     color: rgba(0, 0, 0, 0.87);
+//     cursor: pointer;
+//     min-height: 50px;
+//     line-height: 1.5rem;
+//     width: 100%;
+//     text-align: left;
+//     transition: background-color 0.3s;
+//     float: left;
+//     padding: 0;
+//   }
+// }
+
+#maze_profile_dropdown {
+  position: fixed !important;
+  width: min-content !important;
+  right: 0px;
+  left: unset !important;
+  height: min-content !important;
+  .profile {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    background-color: #255b55;
+    background-image: linear-gradient(160deg, #50b6ac 0%, #0e413c 100%);
+
+    .profile-icon {
+      padding: 10px;
+    }
+    .profile-info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      font-size: 13px;
+      .name {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .dropdown-actions {
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .dropdown-action {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transition: 500ms;
+    }
+
+    .dropdown-action:hover {
+      background-color: #00796d21;
+    }
+
+    .dropdown-action-divider {
+      height: 60%;
+      width: 1px;
+      background: #a7a7a7;
+    }
+  }
+}

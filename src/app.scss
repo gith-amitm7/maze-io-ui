@@ -1,0 +1,32 @@
+@import "~materialize-css/sass/materialize";
+// @import "./assets/stylesheets/variables";
+
+div#root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#maze_app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: linear-gradient(#188d7d, #4aa79a);
+  transform: skewY(-62deg);
+  transform-origin: top left;
+}
+
+.public-header {
+  nav {
+    background-color: transparent;
+  }
+}
+
+footer.page-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
