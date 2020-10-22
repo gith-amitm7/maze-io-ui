@@ -1,9 +1,9 @@
-@import "~materialize-css/sass/materialize";
-// @import "./assets/stylesheets/variables";
+// @import "~materialize-css/sass/materialize";
+@import "./assets/stylesheets/variables";
 
 div#root {
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #maze_app {

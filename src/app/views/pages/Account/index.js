@@ -49,7 +49,7 @@ function Account(props) {
         </div>
       </div>
 
-      <footer className="page-footer teal no-padding center">
+      <footer className="page-footer no-padding center">
         <div className="footer-copyright">
           <div className="container">
             <a

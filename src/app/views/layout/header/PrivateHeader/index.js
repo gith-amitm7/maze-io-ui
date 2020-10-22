@@ -19,7 +19,7 @@ function PrivateHeader({ onTriggerClick, sideMenuCollapsed }) {
   return (
     <div id="maze_header">
       <div className="navbar-fixed">
-        <nav className="teal lighten-2" role="navigation">
+        <nav role="navigation">
           <div className="nav-wrapper header-wrapper">
             <ul className="left">
               <li>
